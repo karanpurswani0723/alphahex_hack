@@ -1,0 +1,11 @@
+#runtime: java
+#instance_class: F1
+#env: flex
+#env_variables:
+#  JAVA_TOOL_OPTIONS: "-XX:MaxRAM=2048m -XX:ActiveProcessorCount=2 -Xmx1024m"
+ 
+service: sb-gcp # Id of the service
+env: flex       # Flex environment
+runtime: java   # Java runtime
+#runtime_config:
+#  jdk: jdk11 # use OpenJDK 11

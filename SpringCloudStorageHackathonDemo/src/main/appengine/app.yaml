@@ -1,0 +1,3 @@
+service: app-engine-sb-hackdemo # Id of the service
+env: flex
+runtime: java   # Java runtime
